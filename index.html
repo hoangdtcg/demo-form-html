@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo Form</title>
+</head>
+<style>
+    fieldset {
+        display: inline-block;
+        width: 100px;
+    }
+
+    form {
+        display: inline-block;
+    }
+
+    input{
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+<form action="https://www.google.com/search" method="get">
+    <fieldset>
+        <legend>Google Search</legend>
+        <input type="text" name="q" placeholder="user name" value="">
+        <input type="number" name="f-phone" value="084000000">
+        <input type="password" name="f-pwd" placeholder="password">
+        <textarea name="f-area" id="" cols="30" rows="10"></textarea>
+        <button type="button">OK</button>
+<!--        <input type="reset" value="OK">-->
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+        <legend>Select Form</legend>
+        <select name="student" id="student">
+            <option value="khoi">Hong Khoi</option>
+            <option value="nghia">Nghia</option>
+            <option value="23000">Viet Nam Dong</option>
+        </select>
+
+        <input type="checkbox" value="a"> Value A
+        <br>
+        <input type="checkbox" value="b"> Value B
+        <br>
+        <input type="checkbox" value="c"> Value C
+        <br>
+        <br>
+        <input type="radio" name="gender"> Nam
+        <br>
+        <input type="radio" name="gender"> Nữ
+    </fieldset>
+
+</form>
+</body>
+</html>
